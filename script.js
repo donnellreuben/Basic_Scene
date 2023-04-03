@@ -9,3 +9,4 @@ scene.add(mesh);
 
 // Camera
 const camera = new THREE.PerspectiveCamera();
+scene.add(camera);
