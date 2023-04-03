@@ -7,6 +7,12 @@ const material = new THREE.MeshBasicMaterial({ color: 'red' });
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
+// Sizes
+const sizes = {
+  width: 800,
+  height: 600
+}
+
 // Camera
 const camera = new THREE.PerspectiveCamera(75);
 scene.add(camera);
